@@ -2,11 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:best-practices",
-  ],  
+  ],
   "git-submodules": {
       "enabled": true
     },
-
   // Do not rebase when the default branch is updated
   "rebaseWhen": "never",
 
@@ -57,7 +56,7 @@
     },
     {
       "description": "Enable GitHub Actions updates since they are now pinned with SHA",
-      "enabled": true,
+      "enabled": false,
       "matchUpdateTypes": ["digest", "pinDigest", "pin", "major", "minor", "patch"],
       "matchDepTypes": ["action"],
       "matchFileNames": [".github/workflows/**.yaml", ".github/workflows/**.yml"],
