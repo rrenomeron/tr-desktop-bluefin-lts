@@ -44,7 +44,7 @@ COPY custom /custom
 COPY tr-osforge/reusable_scripting /oci/tr-osforge
 
 # Base Image (substitute with your chosen base image)
-FROM ghcr.io/projectbluefin/bluefin-lts:stable@sha256:717ce4a8dd783492bd8ceada65b6ac8d4d61fa8707f194db3bfb6d7b450d8be7
+FROM ghcr.io/projectbluefin/bluefin-lts:stable@sha256:6b16af28471ec40d59e7bd704c6f7813973a6e7861b9d4f369d00ad046550304
 
 
 ## Example alternative base images;
